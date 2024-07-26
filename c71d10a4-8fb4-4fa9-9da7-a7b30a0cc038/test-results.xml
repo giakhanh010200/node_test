@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 126.0.6478.185 (Mac OS 10.15.7)" package="" timestamp="2024-07-26T06:17:36" id="0" hostname="Khanhs-MacBook-Pro.local" tests="19" errors="0" failures="18" time="0.008">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/126.0.6478.185 Safari/537.36"/>
+  </properties>
+  <testcase name="booksReviews parseBookData() should return 3 books" time="0.002" classname="booksReviews">
+    <failure type="">Expected 0 to equal 3.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:18:32)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews displayBooksWithReviews() should not render ol when there are no books" time="0" classname="booksReviews"/>
+  <testcase name="booksReviews displayBooksWithReviews() should display 3 book nodes" time="0.001" classname="booksReviews">
+    <failure type="">Expected 0 to equal 3.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:29:30)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 101 should contain correct review data" time="0.001" classname="booksReviews DOM node for book 101">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:91:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:92:49)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 101 should contain correct number of reviews" time="0" classname="booksReviews DOM node for book 101">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:86:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:87:49)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 101 should contain correct title" time="0" classname="booksReviews DOM node for book 101">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:82:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'innerText')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:83:37)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews displayBooksWithReviews() should not render ul when there are no reviews for book" time="0.001" classname="booksReviews">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:40:26)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:41:25)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews BookWithReview object for book 101 should contain correct book data" time="0" classname="booksReviews BookWithReview object for book 101">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:67:40)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'id')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:68:39)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews BookWithReview object for book 101 should contain correct number of reviews" time="0" classname="booksReviews BookWithReview object for book 101">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:73:40)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'reviews')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:74:39)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews BookWithReview object for book 103 should contain correct number of reviews" time="0.001" classname="booksReviews BookWithReview object for book 103">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:73:40)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'reviews')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:74:39)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews BookWithReview object for book 103 should contain correct book data" time="0" classname="booksReviews BookWithReview object for book 103">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:67:40)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'id')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:68:39)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 103 should contain correct number of reviews" time="0" classname="booksReviews DOM node for book 103">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:86:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:87:49)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 103 should contain correct title" time="0" classname="booksReviews DOM node for book 103">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:82:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'innerText')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:83:37)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 103 should contain correct review data" time="0" classname="booksReviews DOM node for book 103">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:91:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:92:49)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 102 should contain correct title" time="0.001" classname="booksReviews DOM node for book 102">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:82:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'innerText')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:83:37)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 102 should contain correct review data" time="0.001" classname="booksReviews DOM node for book 102">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:91:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:92:49)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews DOM node for book 102 should contain correct number of reviews" time="0" classname="booksReviews DOM node for book 102">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:86:38)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'querySelectorAll')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:87:49)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews BookWithReview object for book 102 should contain correct number of reviews" time="0" classname="booksReviews BookWithReview object for book 102">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:73:40)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'reviews')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:74:39)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="booksReviews BookWithReview object for book 102 should contain correct book data" time="0" classname="booksReviews BookWithReview object for book 102">
+    <failure type="">Expected undefined to be defined.
+    at &lt;Jasmine&gt;
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:67:40)
+    at &lt;Jasmine&gt;
+</failure>
+    <failure type="">TypeError: Cannot read properties of undefined (reading 'id')
+    at UserContext.eval (webpack://devskiller-javascript-book-reviews/./src/app/app.spec.js?:68:39)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
